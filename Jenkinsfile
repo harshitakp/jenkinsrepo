@@ -39,6 +39,11 @@ pipeline {
                 }
             }
         }
+        stage('OK'){
+            steps{
+                echo 'Build Succesful'
+            }
+        }
         
         
         
