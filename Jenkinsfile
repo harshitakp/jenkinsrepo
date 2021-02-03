@@ -34,7 +34,7 @@ pipeline {
         }
         stage('SonarQube Analytics') {
             steps {
-                withSonarQubeEnv('sonar-server') {
+                withSonarQubeEnv('SonarQube') {
                     bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:4.6.0.2311:sonar'
                 }
             }
