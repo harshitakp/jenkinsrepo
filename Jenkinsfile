@@ -77,7 +77,7 @@ pipeline {
     }
     post {   
           failure {  
-                 mail bcc: '', body: '''Pipeline Build Failed''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job Failed!', to: 'hardik.goel0205@gmail.com'  
+                 mail bcc: '', body: '''Pipeline Build Failed''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job Failed!', to: 'hsairahul@gmail.com'  
              }    
          }
 }
